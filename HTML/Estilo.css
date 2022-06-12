@@ -1,0 +1,131 @@
+.Tela-cad {
+    background-color: white;
+    width: 30%;
+    height: 75vh;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#NomeSite {
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 11.8%;
+}
+#Login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 2.9%;
+}
+.email {
+    font-family: 'Roboto';
+    font-style: small;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+#Usuario {
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 3%;
+    padding-right: 45%;
+}
+#E-mail {
+    font-size: large;
+    background: #FFFFFF;
+    border: 1px solid #30DB8D;
+    text-align: left;
+    padding: 2%;
+    width: 59%;
+    border-radius: 6%;
+    margin-left: 15%;
+}
+#esqueceu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: smaller;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding-top: 15%;
+    position: absolute;
+    top: 12.8%;
+    left: 39.7%;
+}
+.senha {
+    font-family: 'Roboto';
+    font-style: small;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+#Senha {
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 60%;
+}
+#Seenha {
+    font-size: large;
+    background: #FFFFFF;
+    border: 1px solid #30DB8D;
+    text-align: left;
+    padding: 2%;
+    width: 59%;
+    border-radius: 6%;
+    margin-left: 15%;
+}
+#mostrar {
+    position: absolute;
+    top: 60%;
+    left: 39.5%;
+}
+#Mostrar {
+    font-size: small;
+    padding-left: 19%;
+}
+#lembrar {
+    font-style: normal;
+    font-weight: 400;
+    font-size: smaller;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding-top: 15%;
+    position: absolute;
+    top: 30.3%;
+    left: 51.7%;
+}
+#Conta{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+#Proximo {
+    background-color: #30DB8D;
+    color: white;
+    border-radius: 16px;
+    width: 107px;
+    height: 35px;
+    left: 783px;
+    top: 731px;
+    margin-top: 26.9%;
+    margin-left: 60%;
+}
