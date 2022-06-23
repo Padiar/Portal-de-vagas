@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            margin: 0;
+            width: auto;
+            height: 100vh;
+            background-image: url("imagens/fundo22.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .divp{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background: #FFFFFF;
+            border: 2px solid #30DB8D;
+            border-radius: 25px;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+			line-height: 1;
+            text-align: center;
+        }
+        
+        .divi{
+            width: auto;
+            height: 50px;
+            display: flex;
+        }
+
+        .divi input{
+            border-radius: 5px;
+            border: solid 1px #30DB8D;
+            width: 100%;
+            height: 25px;
+            margin: 13px;
+        }
+
+        .divi input::placeholder{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        .divi label{
+            float: left;
+            margin: 15px;
+            color: #02C9C3;  
+        }
+
+        .divi select{
+            width: 78.8%;
+            height: 30px;
+            float: left;
+            margin: 8px 1px;
+            border: #30DB8D 1px solid;
+            border-radius: 5px;
+        }
+
+        .divw{
+            width: auto;
+            height: 50px;
+            display: flex;
+        }
+
+        .divw input{
+            border-radius: 5px;
+            border: solid 1px #30DB8D;
+            width: 100%;
+            height: 25px;
+            margin: 13px;
+        }
+
+        .divw input::placeholder{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        .divf{
+            display: flex;
+            width: auto;
+            height: 100px;
+        }
+
+        .a1, a::after{
+            text-decoration: none;
+            color: #02C9C3;
+            margin: 50px 25px;
+            float: left;
+            font-size: smaller;
+        }
+
+        button{
+            border: none;
+            background-color: #30DB8D;
+            color: white;
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        .a2{
+            height: 40px;
+            width: 100px;
+            margin: 35px 50px;
+
+
+        }
+    
+    </style>
+
+<body>
+
+    <div class="divp">
+        <h2> GOOD JOB </h2>
+        <p> Criar Sua Conta <p>
+        <p> Dados do Recrutador <p>
+        <div class="divi">
+            <input type="text" placeholder="CNPJ">
+            <input type="text" placeholder="CEP">
+        </div>
+        <div class="divw">
+            <input type="text" placeholder="Nome da Empresa">
+        </div>
+        <div class="divi">
+            <label id="ramo">Ramo</label>
+            <select name="ramo" id="ramo">
+            <option value="ramo">Tecnologia da Informação</option>
+            </select>
+        </div>
+        <div class="divw">
+            <input type="tel" placeholder="Telefone da Empresa">
+        </div>
+        <div class="divf">
+            <a class="a1" href="TelaDeOpcaoLOG.html">Faça login em vez disso</a>
+            <a class="a2" href="PerfilEmp.html"><button>Próximo</button></a>
+        </div>
+        

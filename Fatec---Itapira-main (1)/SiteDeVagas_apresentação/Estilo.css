@@ -1,0 +1,165 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-image: url(imagens/fundo22.jpg);
+}
+
+.Tela-cad {
+    background-color: white;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: #30DB8D solid 2px;
+    border-radius: 10px;
+    
+}
+
+#NomeSite {
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    text-align: center;
+}
+#Login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 2.9%;
+}
+.email {
+    font-family: 'Roboto';
+    font-style: small;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+
+.email label{
+    padding: 2%;
+    margin-left: 15%;
+}
+
+.email input{
+    font-size: large;
+    background: #FFFFFF;
+    border: 1px solid #30DB8D;
+    text-align: left;
+    padding: 2%;
+    width: 65%;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+
+#esqueceu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: smaller;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding: 2%;
+    margin-left: 15%;
+}
+
+#esqueceu a::after, a{
+    text-decoration: none;
+    color: #02C9C3;
+}
+
+.senha {
+    font-family: 'Roboto';
+    font-style: small;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    margin-top: 10%;
+}
+
+.senha label{
+    padding: 2%;
+    margin-left: 15%;
+}
+
+.senha input{
+    font-size: large;
+    background: #FFFFFF;
+    border: 1px solid #30DB8D;
+    text-align: left;
+    padding: 2%;
+    width: 65%;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+
+#mostrar label {
+    position: absolute;
+    top: 60%;
+    left: 39.5%;
+}
+
+#mostrar input{
+    display: inline-block;
+}
+
+#Mostrar {
+    font-size: small;
+    padding-left: 19%;
+}
+#lembrar {
+    font-style: normal;
+    font-weight: 400;
+    font-size: smaller;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding-top: 15%;
+    position: absolute;
+    top: 30.3%;
+    left: 51.7%;
+}
+#Conta{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+
+#Proximo {
+    background-color: #30DB8D;
+    color: white;
+    border-radius: 16px;
+    width: 107px;
+    height: 35px;
+    left: 60%;
+    top: 89%;
+    position: absolute;
+    border: none;
+    
+}
+
+.div1{
+    width: 400px;
+    height: 139px;
+}
+
+#Proximo a{
+    text-decoration: none;
+    color: white;
+}

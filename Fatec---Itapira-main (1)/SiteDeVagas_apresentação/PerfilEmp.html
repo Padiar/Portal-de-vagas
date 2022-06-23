@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            background-color: #1878AD;
+            z-index: 99;
+            }
+
+        nav a {
+            color: #fff;
+            font-size: medium;
+            text-decoration: none;
+            font-weight: bold;
+            }
+
+        nav li {
+            float: left;
+            list-style: none;
+            margin-top: 5px;
+            margin-left: 50px; 
+            padding: 15px;
+            border: solid black 1px;
+            border-radius: 25px;
+            }
+
+        nav img{
+            height: 100px;
+            width: 100px;
+            margin-left: 30%;
+            margin-right: 200px;
+            }
+
+        .img1{
+            height: 50px;
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-right: 0;
+            }
+        
+        .div1{
+            width: auto;
+            height: 100px;
+            border-bottom: solid 1px #1878AD;
+            text-align: center;
+            padding: 0 35%;
+        }
+
+        .div1 img{
+            width: 70px;
+            height: 70px;
+        }
+        
+        .div1 figure{
+            width: 150px;
+            height: 100px;
+            float: left;
+            margin: 0;
+        }
+
+        .div1 h1{
+            margin-top: 30px;
+            float: left;
+            font-weight: normal;
+        }
+        
+        .div2{
+            width: 100%;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        .div2 a, a::after  {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .a1{
+            border-bottom: #1878AD solid 1px;
+            margin-left: 25%;
+            margin-right: 2%;
+        }
+
+
+        .div3{
+            width: 48%;
+            height: auto;
+            text-align: center;
+            display: inline-flex;
+        }
+
+        .img3{
+            width: 50px;
+            height: 60px;
+            margin-left: 40%;
+        }
+        .img4{
+            width: 15px;
+            height: 25px;
+            margin-top: 3.3%;
+            margin-left: 1%;
+        }
+
+        .div3 p{
+            margin-top: 4%;
+            margin-left: 1%;
+        }
+
+        .div3 a, a::after{
+            text-decoration: none;
+            color: #02C9C3;
+            margin-top: 4%;
+            margin-left: 1%;
+        }
+
+        .div4{
+            width: 40%;
+            height: 260px;
+            border: #1878AD dashed;
+            margin-left: 10%;
+            display: inline-block;
+        }
+
+        .div5{
+            width: 49%;
+            height: 50px;
+            display: inline-block;
+            text-align: center;
+        }
+        .div5 p, h5{
+            margin: 5px;
+        }
+        
+        .div6{
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .div6 p, h5{
+            margin: 5px;
+        }
+
+        .div7{
+            width: 30%;
+            height: 260px;
+            border: #1878AD dashed;
+            margin-right: 10%;
+            display: inline-block;
+            float: right;
+            text-align: center;
+        }
+
+        .div8{
+            margin-top: 5%;
+            width: 100%;
+            height: 30%;
+            background-color: #1878AD;
+            display: flex;
+            position: absolute;
+            
+        }
+
+        .div8 li{
+            float: left;
+            padding: 60px 30px;
+        }
+
+        .div8 li::marker{
+             color: #1878AD;
+        }
+
+        .div8 a, a:after{
+            text-decoration: none;
+            color: white;    
+        }
+
+        .div8 img{
+            width: auto;
+            height: 100px;
+            margin-left: 25%;
+            margin-top: 2.5%;
+            
+        }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="TelaPrincipalLogadoEMP.html"><img src="imagens/logo.jpg" alt="logo"></a>
+            <ul>
+                <li><a href="">Para Docentes</a></li>
+                <li><a href="">Para Empresas</a></li>
+                <li><a href="">Para Estudantes</a></li>
+            </ul>
+            <img src="imagens/IconeSino.png" alt="sino" class="img1">
+            <a href="PerfilEmp.html"><img src="imagens/IconePerfil.png" alt="perfil" class="img1"></a>
+        </nav>
+    </div>
+    <div class="div1"> 
+        <figure>
+            <img src="imagens/3a.png">
+            <figcaption>Alterar Foto</figcaption>  
+        </figure>
+        <h1>Empresa</h1>
+    </div>
+    <div class="div2">
+        <a class="a1" href="PerfilEmp.html">Sobre</a>
+        <a href="PerfilEmp2.html">Vagas</a>
+    </div>
+    <div class="div3">
+        <img src="imagens/5.png" alt="prédio" class="img3">
+        <p>Dados da Empresa</p>
+        <img src="imagens/4.png" alt="flecha" class="img4">
+        <a href="">Editar</a>
+    </div>
+    <div class="div3">
+        <img src="imagens/6.png" class="img3">
+        <p>Descrição</p>
+        <img src="imagens/4.png" alt="flecha" class="img4">
+        <a href="">Editar</a>
+    </div>
+    <div class="div4">
+        <div class="div5">
+            <h5>Nome da Empresa:</h5>
+            <p>Empresa</p>
+        </div>
+        <div class="div5">
+            <h5>Data do inicio da empresa:</h5>
+            <p>00/00/0000</p>
+        </div>
+        <div class="div5">
+            <h5>CNPJ:</h5>
+            <p>000.000/0000-00</p>
+        </div>
+        <div class="div5">
+            <h5>Telefone:</h5>
+            <p>(00) 00000-0000</p>
+        </div>
+        <div class="div5">
+            <h5>Cidade:</h5>
+            <p>Itapira-SP</p>
+        </div>
+        <div class="div5">
+            <h5>Bairro:</h5>
+            <p>Bela Vista</p>
+        </div>
+        <div class="div6">
+            <h5>Rua:</h5>
+            <p>R. Tereza Lera Paoletti, 590</p>
+        </div>
+        <div class="div5">
+            <h5>CEP</h5>
+            <p>00000-000</p>
+        </div>
+        <div class="div5">
+            <h5>Ramo:</h5>
+            <p>Tecnologia</p>
+        </div>
+
+    </div>
+    
+    <div class="div7">
+        <h4>Escreva algo sobre sua empresa</h4>
+    </div>
+
+    <div class="div8">
+        <ul>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Informações</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Ajuda</a></li>
+        </ul>
+
+        <img src="imagens/CPS.png">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

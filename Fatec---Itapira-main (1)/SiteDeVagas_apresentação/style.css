@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: Trebuchet MS;
+}
+
+#fundo{
+    background: url("img/img1.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.boxlogin{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #30DB8D;
+    border-radius: 5%;   
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.boxlogin input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.good{
+    text-align: center;
+    height: 8vh;
+    margin-top: 10px;   
+}
+
+.conta{
+    text-align: center;
+    height: 8vh;
+}
+
+.divname{
+    width: 50%;
+	height: 4vh;
+    margin-right: 5px;
+}
+
+.divname1{
+    width: 50%;
+    height: 4vh;
+    margin-left: 5px;
+       
+}
+
+.name{
+    width: 100%;
+    height: 4vh;
+	display: flex;
+	justify-content: stretch;
+}
+
+.divlogin input{
+    width: 98%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.divp1{
+    height: 50px;
+    font-size: 12px;
+    color: darkgrey;
+    margin-top: 5px;
+}
+
+.divp2{
+    font-size: 15px;
+    color: #02C9C3;
+}
+
+.divsenha{
+    width: 100%;
+	display: flex;
+	justify-content: stretch;
+}
+
+.senha{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.confirma1{
+    width: 50%;
+    margin-left: 5px;
+}
+
+.mostrarsenha{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.div3{
+	display: flex;
+	justify-content: stretch;
+    height: 6vh;
+    text-align: justify;
+}
+
+.botao{
+    width: 40%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 6vh;
+    background: #30DB8D;
+    font-weight: bold;
+    border: aqua;
+    border-radius: 15px;
+    color: white;
+}
+
+.texto{
+    width: 50%;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #02C9C3;
+}
+
+button a, a::after{
+    text-decoration: none;
+    color: white;
+
+}
+
+a, a::after{
+    text-decoration: none;
+    color: #02C9C3;
+}
